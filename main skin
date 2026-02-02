@@ -829,11 +829,11 @@ span.count a {
 }
 
 .status .public {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/NGC7293_%282004%29.jpg/1280px-NGC7293_%282004%29.jpg");
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/NGC7293_%282004%29.jpg");
 }
 
 .status .private .text {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUKii0z84mhvSI6o4Ztjje0FU1VQW_--vHA1apGnPzIw&s=10.png");
+  background-image: url("https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2014/06/herschel_observations_of_helix_nebula/14578549-1-eng-GB/Herschel_observations_of_Helix_Nebula_card_medium.jpg");
 }
 
 .event .userstuff {
