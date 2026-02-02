@@ -1,14 +1,19 @@
 /*
 COLOURS USED
-brown background: #40251E
-light blue text: ##baddf0
-light pink text: #fddbdc
-teal accent: #34dce5
-purple accent: #a03cb8 - I've updated this colour to #cc4beb (it's higher contrast)
-pink accent: #f260b1
-orange accent: #df6757
-yellow additional tags: #fdf9b3
+brown background: #40251E - was dPurple/240830
+blue text: #9BAECC - was lBlue/baddf0
+yellow text: #E6C274 - was lPink/fddbdc
+light blue accent: #3E77AE - was teal/34dce5
+pink/purple accent: #D097DC - was purple/cc4beb
+light purple accent: #CEBAEF - was pink/f260b1
+orange accent: #CD9057 - was orange/df6757
+lavender additional tags: #998DCD - was yellow/fdf9b3
 */
+
+/*
+TERMS EXPLAINED
+header - image in the background
+
 
 #header h1 sup,
 #header .button,
@@ -24,12 +29,12 @@ yellow additional tags: #fdf9b3
 #outer.wrapper,
 #main,
 .listbox .index {
-  background: #240830;
-  color: #fddbdc;
+  background: #40251E;
+  color: #E6C274;
 }
 
 #main a {
-  color: #cc4beb;
+  color: #D097DC;
 }
 
 #header .heading {
@@ -37,19 +42,19 @@ yellow additional tags: #fdf9b3
 }
 
 #header {
-  background-color: #240830;
-  background-image: url("https://64.media.tumblr.com/7a1d8fa4ea6277dfd64a5c716174634c/03cc29919732fdb2-99/s1280x1920/ce5dc6c5a30269996083c4e16887a24aac162ce4.jpg");
+  background-color: #40251E;
+  background-image: url("https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2022/07/STScI-01GA6KKWG229B16K4Q38CH3BXS.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  border-top: 3px solid #34dce5;
-  border-bottom: 2px solid #f260b1;
+  border-top: 3px solid #3E77AE;
+  border-bottom: 2px solid #CEBAEF;
 }
 
 #header .heading a {
   color: #ffffff;
   padding-left: 1em;
-  font-variant: small-caps;
+  font-variant: bold-caps;
 }
 
 h1,
@@ -59,7 +64,7 @@ h4,
 h5,
 h6,
 .heading {
-  font-family: "Century Gothic", sans-serif;
+  font-family: "Monospace", Martian Mono;
   font-weight: normal;
   position: initial;
 }
@@ -82,11 +87,11 @@ a.work,
 span.symbol,
 .splash .news .meta,
 select {
-  font-family: "Century Gothic", sans-serif;
+  font-family: "Monospace", Martian Mono;
 }
 
 #header .primary {
-  background: #240830;
+  background: #40251E;
   box-shadow: none;
 }
 
@@ -94,8 +99,8 @@ select {
 #header .primary li a,
 #greeting li,
 #greeting li a {
-  color: #cc4beb !important;
-  background: #240830;
+  color: #D097DC !important;
+  background: #40251E;
   border: none;
 }
 
@@ -120,8 +125,8 @@ select {
 
 #greeting .dropdown .menu,
 #greeting .dropdown .menu a {
-  background: #cc4beb;
-  color: #240830;
+  background: #D097DC;
+  color: #40251E;
 }
 
 #greeting .dropdown .menu {
@@ -133,7 +138,7 @@ select {
 #greeting .dropdown:hover a,
 #greeting .open a,
 #greeting .dropdown .menu a {
-  background-color: #cc4beb;
+  background-color: #D097DC;
   color: #fff;
 }
 
@@ -145,16 +150,16 @@ select {
 
 #header .actions a.dropdown-toggle:hover,
 #header .dropdown-toggle:hover a {
-  background-color: #240830;
-  color: #34dce5 !important;
+  background-color: #40251E;
+  color: #3E77AE !important;
 }
 
 #header .actions a:focus,
 #header .open a,
 #header .dropdown .menu a,
 #header .dropdown .menu {
-  background-color: #240830;
-  color: #34dce5;
+  background-color: #40251E;
+  color: #3E77AE;
 }
 
 #header .dropdown .menu a:hover,
@@ -167,7 +172,7 @@ select {
 #greeting .dropdown:hover li,
 #greeting .dropdown:focus li {
   box-shadow: none;
-  background: #cc4beb;
+  background: #D097DC;
   color: #fff;
   border-top: none;
   border-left: none;
@@ -177,78 +182,78 @@ select {
 #header #search .text,
 .search [role="tooltip"] {
   border: none;
-  background: #f260b1;
-  color: #240830 !important;
+  background: #CEBAEF;
+  color: #40251E !important;
 }
 
 #footer {
   border-top: 8px solid;
-  border-color: #34dce5;
+  border-color: #3E77AE;
 }
 
 #footer.region {
-  background: #240830;
-  color: #34dce5;
+  background: #40251E;
+  color: #3E77AE;
 }
 
 #footer h4.heading {
-  color: #f260b1;
+  color: #CEBAEF;
 }
 
 #footer a {
-  color: #34dce5 !important;
+  color: #3E77AE !important;
 }
 
 .system .latest h3,
 .splash .module h3,
 .system .tweets h3 {
-  color: #df6757;
+  color: #CD9057;
 }
 
 .splash .module h3 {
-  border-bottom: 1px solid #df6757;
+  border-bottom: 1px solid #CD9057;
   font-variant: small-caps;
-  color: #df6757;
+  color: #CD9057;
 }
 
 .splash .module a,
 h4.heading a {
-  color: #df6757 !important;
+  color: #CD9057 !important;
 }
 
 .splash .module a:hover,
 h4.heading a:hover {
-  color: #34dce5 !important;
+  color: #3E77AE !important;
 }
 
 .splash .news li {
-  border-bottom: 1px solid #df6757;
+  border-bottom: 1px solid #CD9057;
 }
 
 .splash .favorite li:nth-of-type(odd) a {
-  background: #240830;
-  color: #df6757 !important;
+  background: #40251E;
+  color: #CD9057 !important;
 }
 
 .splash .favorite li:nth-of-type(even) a {
-  color: #df6757 !important;
+  color: #CD9057 !important;
 }
 
 .splash .favorite li:nth-of-type(odd) a:hover,
 .splash .favorite li:nth-of-type(even) a:hover {
-  background-color: #240830;
-  color: #34dce5 !important;
+  background-color: #40251E;
+  color: #3E77AE !important;
 }
 
 #workskin h2,
 #workskin a {
-  color: #34dce5 !important;
+  color: #3E77AE !important;
   font-variant: small-caps;
 }
 
 #workskin {
   background: none;
-  border: 1px solid #34dce5;
+  border: 1px solid #3E77AE;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -256,12 +261,12 @@ h4.heading a:hover {
 div.preface {
   margin: 0;
   padding: 0;
-  border-bottom: 1px solid double #34dce5;
+  border-bottom: 1px solid double #3E77AE;
 }
 
 #dashboard a,
 #dashboard span {
-  color: #f260b1;
+  color: #CEBAEF;
   background: none;
   vertical-align: middle;
   word-wrap: break-word;
@@ -270,7 +275,7 @@ div.preface {
 
 #dashboard a:hover {
   background: none;
-  color: #34dce5;
+  color: #3E77AE;
 }
 
 #dashboard ul {
@@ -279,7 +284,7 @@ div.preface {
 
 #dashboard .current {
   background: none;
-  color: #f260b1;
+  color: #CEBAEF;
   border-style: solid;
   border-radius: 65px 5px 5px 5px;
 }
@@ -288,99 +293,99 @@ div.preface {
 #dashboard.own,
 #dashboard.admin.region {
   background: none;
-  border-top: #f260b1;
-  border-bottom: #f260b1;
+  border-top: #CEBAEF;
+  border-bottom: #CEBAEF;
 }
 
 ul.skin.picture.index.group li.blurb {
   background: none;
-  border: 1px solid #df6757;
+  border: 1px solid #CD9057;
 }
 
 #main.errors {
-  background: url("https://64.media.tumblr.com/287657e40c40a79812472587843cc067/03cc29919732fdb2-ee/s500x750/51a51e78f7c425dccd051a743c1d4dcd0d99e14e.png") top right no-repeat;
+  background: url("https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/p/i/a/0/PIA01492-1.jpg") top right no-repeat;
 }
 
 #main.error-502 {
-  background: url("https://64.media.tumblr.com/962723203297f62833e4514652c687e9/03cc29919732fdb2-ad/s500x750/4aca4ec91eb2a08f46bde0802d55c48eb404b52c.png") top right no-repeat;
+  background: url("https://insider.si.edu/wp-content/uploads/2011/05/MercuryCalorisBasin.tif.746x600_q85.jpg") top right no-repeat;
 }
 
 #main.error-503-maintenance {
-  background: url("https://64.media.tumblr.com/27a4ffff3045539b290ddc4eb786dc4e/03cc29919732fdb2-9b/s500x750/74240fd5a02d069e022162f5e0a30c7ff5cc7eaa.png") top right no-repeat;
+  background: url("https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/19534315/pia21974.jpg") top right no-repeat;
 }
 
 div.comment,
 li.comment {
-  border: 1px solid #cc4beb;
+  border: 1px solid #D097DC;
   background: none;
 }
 
 .comment div.icon {
-  border-bottom: 5px solid #cc4beb;
+  border-bottom: 5px solid #D097DC;
 }
 
 .comment .icon .anonymous {
-  background: url("https://64.media.tumblr.com/d67bfb7d24770ace278b591b6010cdef/03cc29919732fdb2-51/s100x200/a8c017b0753a8242a27874b36aa08109279c088a.png");
+  background: url("https://media.cnn.com/api/v1/images/stellar/prod/201002152744-01-hubble-supernova-fade.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .comment .icon .visitor {
-  background: url("https://64.media.tumblr.com/d67bfb7d24770ace278b591b6010cdef/03cc29919732fdb2-51/s100x200/a8c017b0753a8242a27874b36aa08109279c088a.png");
+  background: url("https://media.cnn.com/api/v1/images/stellar/prod/201002152744-01-hubble-supernova-fade.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .index .skins .icon {
-  background: url("https://64.media.tumblr.com/b3d94ee3be8737c8240ce63e26b96487/03cc29919732fdb2-72/s100x200/9002da6f6b42be2d320bba422c33cba337aeb19b.png");
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Crab_Nebula.jpg/960px-Crab_Nebula.jpg");
   background-size: contain;
-  border: 1px solid #f260b1;
+  border: 1px solid #CEBAEF;
 }
 
 .index .mystery .icon {
-  background: url("https://64.media.tumblr.com/d67bfb7d24770ace278b591b6010cdef/03cc29919732fdb2-51/s100x200/a8c017b0753a8242a27874b36aa08109279c088a.png");
+  background: url("https://media.cnn.com/api/v1/images/stellar/prod/201002152744-01-hubble-supernova-fade.jpg");
   background-size: contain;
 }
 
 .index .tag .icon,
 .index .tagset .icon {
-  background: url("https://64.media.tumblr.com/d67bfb7d24770ace278b591b6010cdef/03cc29919732fdb2-51/s100x200/a8c017b0753a8242a27874b36aa08109279c088a.png");
+  background: url("https://media.cnn.com/api/v1/images/stellar/prod/201002152744-01-hubble-supernova-fade.jpg");
   background-size: contain;
-  border: 1px solid #f260b1;
+  border: 1px solid #CEBAEF;
 }
 
 .comment h4.byline {
-  background: #240830;
-  color: #df6757;
-  border-top: 1px solid #df6757;
-  border-left: 1px solid #df6757;
-  border-right: 1px solid #df6757;
+  background: #40251E;
+  color: #CD9057;
+  border-top: 1px solid #CD9057;
+  border-left: 1px solid #CD9057;
+  border-right: 1px solid #CD9057;
   border-bottom: none;
 }
 
 .comment h4.byline a {
-  color: #df6757 !important;
+  color: #CD9057 !important;
 }
 
 li.comment {
-  color: #cc4beb;
-  border: 1px solid #df6757;
+  color: #D097DC;
+  border: 1px solid #CD9057;
 }
 
 .thread .even {
-  border: 1px solid #df6757;
-  background: #240830;
-  color: #df6757;
+  border: 1px solid #CD9057;
+  background: #40251E;
+  color: #CD9057;
 }
 
 .abbreviated .icon .anonymous {
-  background: url("https://64.media.tumblr.com/d67bfb7d24770ace278b591b6010cdef/03cc29919732fdb2-51/s100x200/a8c017b0753a8242a27874b36aa08109279c088a.png");
+  background: url("https://media.cnn.com/api/v1/images/stellar/prod/201002152744-01-hubble-supernova-fade.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .abbreviated .icon .visitor {
-  background: url("https://64.media.tumblr.com/d67bfb7d24770ace278b591b6010cdef/03cc29919732fdb2-51/s100x200/a8c017b0753a8242a27874b36aa08109279c088a.png");
+  background: url("https://media.cnn.com/api/v1/images/stellar/prod/201002152744-01-hubble-supernova-fade.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -388,35 +393,35 @@ li.comment {
 .replied,
 span.claimed,
 .actions span.defaulted {
-  background: #240830;
-  color: #df6757;
-  border: 1px solid #df6757;
+  background: #40251E;
+  color: #CD9057;
+  border: 1px solid #CD9057;
 }
 
 span.unread {
-  background: #df6757;
-  color: #240830;
-  border: 1px solid #df6757;
+  background: #CD9057;
+  color: #40251E;
+  border: 1px solid #CD9057;
 }
 
 .actions span.defaulted {
-  color: #df6757;
+  color: #CD9057;
 }
 
 .skins .primary .icon,
 .admin .primary .icon,
 .tag .primary .icon,
 .tagset .primary .icon .wrangler .primary .icon {
-  background: url("https://64.media.tumblr.com/d67bfb7d24770ace278b591b6010cdef/03cc29919732fdb2-51/s100x200/a8c017b0753a8242a27874b36aa08109279c088a.png");
-  border: 1px solid #f260b1;
+  background: url("https://media.cnn.com/api/v1/images/stellar/prod/201002152744-01-hubble-supernova-fade.jpg");
+  border: 1px solid #CEBAEF;
 }
 
 p.kudos {
-  background: url("https://64.media.tumblr.com/150a0adbce74bceea68d83b02c14ff23/03cc29919732fdb2-ff/s75x75_c1/af05e4c04c58faf54456b2f4dd1efcbdb17cb920.png") no-repeat;
+  background: url("https://www.slate.com/content/dam/slate/blogs/bad_astronomy/galleries/cosmic-valentines/wise_ic1805_heart.jpg") no-repeat;
 }
 
 p.kudos {
-  color: #f260b1 !important;
+  color: #CEBAEF !important;
 }
 
 .notice,
@@ -428,9 +433,9 @@ ul.notes,
 .comment_error,
 .kudos_error,
 .alert.flash {
-  background: #f260b1;
-  border: 1px solid #f260b1;
-  color: #240830;
+  background: #CEBAEF;
+  border: 1px solid #CEBAEF;
+  color: #40251E;
   margin: .643em auto;
   padding: .25em .375em;
   clear: right;
@@ -439,18 +444,18 @@ ul.notes,
 }
 
 .caution {
-  background: #f260b1;
-  color: #240830;
-  border-color: #f260b1;
+  background: #CEBAEF;
+  color: #40251E;
+  border-color: #CEBAEF;
 }
 
 .error,
 .comment_error,
 .kudos_error,
 .alert.flash {
-  background: #f260b1;
-  border-color: #f260b1;
-  color: #240830;
+  background: #CEBAEF;
+  border-color: #CEBAEF;
+  color: #40251E;
   box-shadow: none;
 }
 
@@ -461,17 +466,17 @@ ul.notes,
 }
 
 dl.meta {
-  background: #240830;
+  background: #40251E;
 }
 
 dl.meta a {
-  color: #cc4beb;
+  color: #D097DC;
 }
 
 .listbox>.heading,
 .listbox .heading a:visited {
   margin: 0;
-  color: #cc4beb;
+  color: #D097DC;
   padding: .25em;
 }
 
@@ -480,17 +485,17 @@ dl.meta a {
   padding: .643em;
   float: none;
   clear: right;
-  background: #240830;
+  background: #40251E;
   box-shadow: none;
 }
 
 .listbox a {
-  color: #34dce5 !important;
+  color: #3E77AE !important;
 }
 
 .blurb h4 a:link,
 .blurb h4 img {
-  color: #34dce5;
+  color: #3E77AE;
   vertical-align: bottom;
 }
 
@@ -498,11 +503,11 @@ ol.work.index.group li,
 ol.bookmark.index.group li,
 li.collection.picture.blurb.group,
 li.user.pseud.picture.blurb.group {
-  background: #240830;
+  background: #40251E;
 }
 
 ol.work.index.group li.blurb {
-  border: 1px solid #34dce5;
+  border: 1px solid #3E77AE;
 }
 
 .blurb .relationships {
@@ -518,28 +523,28 @@ li.relationships a,
 .work .warning a.tag,
 dt.warning.tags a,
 dd.warning.tags a {
-  color: #df6757 !important;
+  color: #CD9057 !important;
 }
 
 .relationships .tag,
 .work .relationships a.tag,
 dt.relationship.tags,
 dd.relationship.tags a {
-  color: #f260b1 !important;
+  color: #CEBAEF !important;
 }
 
 .characters .tag,
 .work .characters a.tag,
 dt.character.tags,
 dd.character.tags a {
-  color: #34dce5 !important;
+  color: #3E77AE !important;
 }
 
 .freeforms .tag,
 .work .freeforms a.tag,
 dt.freeform.tags,
 dd.freeform.tags a {
-  color: #fdf9b3 !important;
+  color: #998DCD !important;
 }
 
 .actions a,
@@ -551,44 +556,44 @@ dd.freeform.tags a {
 input[type=submit],
 button,
 .actions label {
-  background: #240830;
-  color: #cc4beb !important;
+  background: #40251E;
+  color: #D097DC !important;
   background-image: none;
   border-radius: 5px 5px 5px 5px;
-  border: 1px solid #34dce5;
+  border: 1px solid #3E77AE;
   box-shadow: none;
 }
 
 .current {
-  background: #f260b1;
-  color: #240830;
+  background: #CEBAEF;
+  color: #40251E;
   background-image: none;
   border-radius: 5px 5px 5px 5px;
-  border: 1px solid #df6757;
+  border: 1px solid #CD9057;
   box-shadow: none;
 }
 
 button {
-  font-family: "Century Gothic", sans-serif;
+  font-family: "Monospace", Martian Mono;
   box-sizing: content-box;
 }
 
 label {
-  color: #f260b1;
+  color: #CEBAEF;
 }
 
 .javascript {
-  background: #240830;
+  background: #40251E;
 }
 
 fieldset.comments,
 .comment .userstuff {
-  border: #df6757;
+  border: #CD9057;
   box-shadow: none;
 }
 
 fieldset {
-  background: url("https://64.media.tumblr.com/be5cae436bae6981d6e8c091459cb1c2/03cc29919732fdb2-b8/s2048x3072/beac1b04c13a691b38690c472696a6907b710889.png");
+  background: url("https://www.sciencenews.org/wp-content/uploads/sites/2/2021/03/022621_sp_milkomeda_feat.jpg");
 }
 
 form dl,
@@ -598,9 +603,9 @@ fieldset fieldset dl dl,
 dd.hideme,
 form blockquote.userstuff {
   display: block;
-  background: #240830;
-  border: 1px solid #34dce5;
-  color: #baddf0;
+  background: #40251E;
+  border: 1px solid #3E77AE;
+  color: #9BAECC;
   margin: .643em;
   padding: .643em;
   box-shadow: none;
@@ -609,8 +614,8 @@ form blockquote.userstuff {
 fieldset dl,
 fieldset.actions,
 fieldset dl fieldset dl {
-  background: #240830;
-  color: #baddf0;
+  background: #40251E;
+  color: #9BAECC;
   clear: right;
   box-shadow: none;
 }
@@ -618,15 +623,15 @@ fieldset dl fieldset dl {
 fieldset fieldset,
 fieldset dl dl,
 form blockquote.userstuff {
-  background: #240830;
-  color: #baddf0;
+  background: #40251E;
+  color: #9BAECC;
 }
 
 .listbox,
 fieldset fieldset.listbox {
   clear: right;
-  background: #240830;
-  border: 1px solid #34dce5;
+  background: #40251E;
+  border: 1px solid #3E77AE;
   padding: 0;
   margin: .643em auto;
   overflow: hidden;
@@ -634,9 +639,9 @@ fieldset fieldset.listbox {
 }
 
 .filters .expander {
-  background: url("https://64.media.tumblr.com/ef673267cb89adfe8974e1774b9ad722/03cc29919732fdb2-eb/s75x75_c1/8c3eeefdf21b7f2cd97fd502c328c920792549ac.png") left center no-repeat;
+  background: url("https://www-tc.pbs.org/prod-media/newshour/photos/2010/05/26/atlantis_blog_main_horizontal.jpg") left center no-repeat;
   border: none;
-  color: #f260b1;
+  color: #CEBAEF;
   height: 100%;
   min-height: 1.786em;
   outline: none;
@@ -649,7 +654,7 @@ fieldset fieldset.listbox {
 }
 
 .filters .expanded .expander {
-  background-image: url("https://64.media.tumblr.com/eec25fd74d4fe293ea8e3dbd86f25611/03cc29919732fdb2-a5/s75x75_c1/76980709cf869fa3234604643d37c59158592e2d.png");
+  background-image: url("https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2009/08/space_shuttle_discovery_on_the_launch_pad6/10019998-2-eng-GB/Space_Shuttle_Discovery_on_the_launch_pad.jpg");
 }
 
 .filters dt {
@@ -658,18 +663,18 @@ fieldset fieldset.listbox {
 }
 
 table {
-  background: #240830;
-  border-color: #f260b1;
+  background: #40251E;
+  border-color: #CEBAEF;
   border-collapse: collapse;
 }
 
 thead,
 tfoot {
-  border-bottom: 1px solid #f260b1;
+  border-bottom: 1px solid #CEBAEF;
 }
 
 tfoot td {
-  border-top: 1px solid #f260b1;
+  border-top: 1px solid #CEBAEF;
 }
 
 tbody tr {
@@ -677,31 +682,31 @@ tbody tr {
 }
 
 thead td {
-  background: #240830;
-  color: #fddbdc;
-  border-bottom: 1px solid #fddbdc;
+  background: #40251E;
+  color: #E6C274;
+  border-bottom: 1px solid #E6C274;
 }
 
 span.question {
-  background: #f260b1;
+  background: #CEBAEF;
   border: none;
   box-shadow: none;
-  color: #240830;
+  color: #40251E;
 }
 
 #modal {
-  background: #240830;
-  border: 3px solid #df6757;
+  background: #40251E;
+  border: 3px solid #CD9057;
   box-shadow: none;
-  color: #fddbdc;
+  color: #E6C274;
 }
 
 form.search input[type=text],
 form.search input[type=submit],
 .autocomplete div.dropdown ul {
-  background: #240830;
-  border: 1px solid #f260b1;
-  color: #fddbdc;
+  background: #40251E;
+  border: 1px solid #CEBAEF;
+  color: #E6C274;
   display: block;
   box-shadow: none;
 }
@@ -712,78 +717,78 @@ select,
 select:focus,
 textarea,
 textarea:focus {
-  background: #240830;
-  color: #baddf0;
+  background: #40251E;
+  color: #9BAECC;
 }
 
 textarea {
-  background: #240830;
-  color: #fddbdc;
+  background: #40251E;
+  color: #E6C274;
 }
 
 .LV_invalid,
 form.notice,
 p.notice {
-  background: #df6757;
-  border: 1px solid #df6757;
-  color: #240830;
+  background: #CD9057;
+  border: 1px solid #CD9057;
+  color: #40251E;
   box-shadow: none;
   border-radius: .25em;
   font-weight: normal;
-  font-family: "Century Gothic", sans-serif;
+  font-family: "Monospace", Martian Mono;
 }
 
 form.verbose legend,
 .verbose form legend {
-  background: #240830;
-  border: 1px solid #34dce5;
+  background: #40251E;
+  border: 1px solid #3E77AE;
   box-shadow: none;
 }
 
 .tox .tox-edit-area__iframe {
-  background-color: #240830;
-  color: #baddf0;
+  background-color: #40251E;
+  color: #9BAECC;
 }
 
 .draft {
-  background: #240830;
-  color: #df6757 !important;
+  background: #40251E;
+  color: #CD9057 !important;
 }
 
 .toggled form,
 .dynamic form {
   padding: .5em;
-  border: 1px solid #f260b1;
-  background: url("https://64.media.tumblr.com/be5cae436bae6981d6e8c091459cb1c2/03cc29919732fdb2-b8/s2048x3072/beac1b04c13a691b38690c472696a6907b710889.png");
+  border: 1px solid #CEBAEF;
+  background: url("https://www.sciencenews.org/wp-content/uploads/sites/2/2021/03/022621_sp_milkomeda_feat.jpg");
   box-shadow: none;
   color: #fff;
 }
 
 ul.series.work.index.group li {
-  background: #240830;
+  background: #40251E;
 }
 
 .statistics .index li:nth-of-type(even) {
-  background: #240830;
+  background: #40251E;
 }
 
 li.unread.comment.group h4.byline {
-  background: #df6757;
-  color: #240830;
+  background: #CD9057;
+  color: #40251E;
 }
 
 li.unread.comment.group h4.byline a {
-  color: #240830 !important;
+  color: #40251E !important;
 }
 
 dl.index dd {
-  background: #240830;
+  background: #40251E;
 }
 
 .reading h4.viewed,
 li.blurb,
 div.dynamic {
-  background: #240830;
+  background: #40251E;
 }
 
 .notice a,
@@ -796,23 +801,23 @@ ul.notes a,
 .kudos_error a,
 .alert.flash a {
   font-weight: bold;
-  color: #240830 !important;
+  color: #40251E !important;
 }
 
 .secondary {
-  background: #240830;
+  background: #40251E;
   border: none;
   box-shadow: none;
 }
 
 th,
 .child {
-  background: #240830;
+  background: #40251E;
 }
 
 
 p.footnote {
-  color: #df6757;
+  color: #CD9057;
 }
 
 p.muted.notice {
@@ -820,20 +825,20 @@ p.muted.notice {
 }
 
 span.count a {
-  background: #240830;
+  background: #40251E;
 }
 
 .status .public {
-  background-image: url("https://64.media.tumblr.com/830ce68431fcc17121bf46bee589c0ea/03cc29919732fdb2-a8/s75x75_c1/6a89c8af2e5f276868515e782bfbc113a5d43d3d.png");
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/NGC7293_%282004%29.jpg/1280px-NGC7293_%282004%29.jpg");
 }
 
 .status .private .text {
-  background-image: url("https://64.media.tumblr.com/90cd1dd5586fb3429ad98a8b389c8b3e/03cc29919732fdb2-3a/s75x75_c1/b1ad784ea0103cf4b64a021387707fd293f5b9f4.png");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUKii0z84mhvSI6o4Ztjje0FU1VQW_--vHA1apGnPzIw&s=10.png");
 }
 
 .event .userstuff {
-  background-image: url("https://64.media.tumblr.com/be5cae436bae6981d6e8c091459cb1c2/03cc29919732fdb2-b8/s2048x3072/beac1b04c13a691b38690c472696a6907b710889.png");
-  border: 1px solid #34dce5;
+  background-image: url("https://www.sciencenews.org/wp-content/uploads/sites/2/2021/03/022621_sp_milkomeda_feat.jpg");
+  border: 1px solid #3E77AE;
 }
 
 
@@ -916,6 +921,6 @@ span.complete-no.iswip {
 }
 
 #stat_chart svg text {
-  font-family: "Century Gothic", Arial, sans-serif;
+  font-family: "Monospace", Courier New, Martian Mono;
   filter: invert(100%);
 }
