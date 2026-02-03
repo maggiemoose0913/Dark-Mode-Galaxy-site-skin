@@ -10,11 +10,6 @@ orange accent: #CD9057 - was orange/df6757
 lavender additional tags: #998DCD - was yellow/fdf9b3
 */
 
-/*
-TERMS EXPLAINED
-header - image in the background
-
-
 #header h1 sup,
 #header .button,
 #header .landmark,
