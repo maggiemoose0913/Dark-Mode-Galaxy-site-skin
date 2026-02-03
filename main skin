@@ -332,7 +332,7 @@ li.comment {
 }
 
 .index .skins .icon {
-  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Crab_Nebula.jpg/960px-Crab_Nebula.jpg");
+  background: url("https://media.cnn.com/api/v1/images/stellar/prod/201002152744-01-hubble-supernova-fade.jpg");
   background-size: contain;
   border: 1px solid #CEBAEF;
 }
